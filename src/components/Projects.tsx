@@ -90,7 +90,7 @@ const Projects = () => {
                     className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
                     asChild
                   >
-                    <a href={project.githubUrl} target="https://github.com/jayaviswanathreddy/007.git" rel="https://github.com/jayaviswanathreddy/007.git">
+                    <a href={"https://github.com/jayaviswanathreddy/007.git"} target="https://github.com/jayaviswanathreddy/007.git" rel="https://github.com/jayaviswanathreddy/007.git">
                       <Github size={16} className="mr-2" />
                       Code
                     </a>
